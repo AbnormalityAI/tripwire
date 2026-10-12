@@ -1,0 +1,8 @@
+name: git-config
+status: 200
+headers: {Strict-Transport-Security: max-age=1}
+body: |
+  [core]
+      repositoryformatversion = 0
+      filemode = true
+expect: [git-config-exposure]
