@@ -1,9 +1,0 @@
-id: directory-listing
-info:
-  name: Open directory listing
-  severity: low
-  tags: [misconfig]
-matchers:
-  - type: word
-    words: ["Index of /", "Parent Directory"]
-    condition: and
