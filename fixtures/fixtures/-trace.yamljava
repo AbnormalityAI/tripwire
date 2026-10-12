@@ -1,5 +1,0 @@
-name: java-trace
-status: 500
-headers: {}
-body: "java.lang.NullPointerException\n\tat com.example.Handler.run(Handler.java:88)"
-expect: [debug-stacktrace]
