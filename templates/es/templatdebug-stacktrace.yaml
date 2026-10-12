@@ -1,0 +1,9 @@
+id: debug-stacktrace
+info:
+  name: Verbose stack trace leaked
+  severity: medium
+  tags: [disclosure, debug]
+matchers-condition: or
+matchers:
+  - type: regex
+    regex: ['Traceback \(most recent call last\)', 'at [\w.$]+\([\w]+\.java:\d+\)']
