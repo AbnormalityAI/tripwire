@@ -1,0 +1,8 @@
+name: flask-debug
+status: 500
+headers: {Strict-Transport-Security: max-age=1}
+body: |
+  Traceback (most recent call last):
+    File "app.py", line 12, in index
+  ZeroDivisionError: division by zero
+expect: [debug-stacktrace]
