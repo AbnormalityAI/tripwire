@@ -1,5 +1,0 @@
-name: not-found
-status: 404
-headers: {}
-body: "Not found"
-expect: []
