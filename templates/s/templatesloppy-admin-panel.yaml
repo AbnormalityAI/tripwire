@@ -1,8 +1,0 @@
-id: sloppy-admin-panel
-info:
-  name: Admin panel (deliberately sloppy example)
-  severity: medium
-  tags: [panel]
-matchers:
-  - type: word
-    words: ["admin"]
