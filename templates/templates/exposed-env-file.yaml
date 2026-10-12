@@ -1,0 +1,12 @@
+id: exposed-env-file
+info:
+  name: Exposed .env file
+  severity: high
+  description: A dotenv file served over HTTP with secret-looking keys.
+  tags: [exposure, config]
+matchers-condition: and
+matchers:
+  - type: status
+    status: [200]
+  - type: regex
+    regex: ['(?m)^[A-Z][A-Z0-9_]*(SECRET|PASSWORD|API_KEY|TOKEN)[A-Z0-9_]*=\S+']
