@@ -1,0 +1,8 @@
+name: env-leak
+status: 200
+headers: {Content-Type: text/plain, Strict-Transport-Security: max-age=63072000}
+body: |
+  APP_ENV=production
+  DB_PASSWORD=hunter2
+  STRIPE_API_KEY=sk_test_placeholder
+expect: [exposed-env-file]
