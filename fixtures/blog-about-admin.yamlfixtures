@@ -1,0 +1,5 @@
+name: blog-about-admin
+status: 200
+headers: {Strict-Transport-Security: max-age=1}
+body: "<p>Our site admin posted a new article about gardening.</p>"
+expect: []
