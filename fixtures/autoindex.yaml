@@ -1,0 +1,5 @@
+name: autoindex
+status: 200
+headers: {Content-Type: text/html}
+body: "<title>Index of /backups</title><a href=\"/\">Parent Directory</a>"
+expect: [directory-listing, missing-hsts]
