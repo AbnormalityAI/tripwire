@@ -1,0 +1,5 @@
+name: env-example-doc
+status: 200
+headers: {Strict-Transport-Security: max-age=1}
+body: "<p>Create a file with DB_PASSWORD=your-password-here in a .env</p>"
+expect: []
