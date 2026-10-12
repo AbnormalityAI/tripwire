@@ -1,0 +1,5 @@
+name: admin-login
+status: 200
+headers: {Strict-Transport-Security: max-age=1}
+body: "<h1>Admin login</h1><form></form> admin console"
+expect: [sloppy-admin-panel]
